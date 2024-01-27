@@ -1,30 +1,8 @@
-// import { OpenAI } from 'openai';
-
-// const input = document.getElementById("input-text");
-// const button_send = document.getElementById("send-button");
-// const output_text = document.getElementById('output1');
-// const openai = new OpenAI({ apiKey: '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', dangerouslyAllowBrowser: true });
-
-// const out = async () => {
-//   const res = await openai.chat.completions.create({
-//     model: "gpt-3.5-turbo-1106",
-//     messages: [{ role: "user", content: input.value }],
-//   });
-
-//   res.choices.forEach((output) => output_text.innerHTML = output.message.content);
-//   console.log(output.message.content);
-// }
-
-
-// button_send.addEventListener('click', out);
-// console.log('Script loaded')
-
-
 const sendChatBtn = document.querySelector("#send-button")
 const chatInput = document.querySelector("#input-text")
 const chatBox = document.querySelector(".chatbox")
 
-const API_KEY = "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"
+const API_KEY = "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"
 
 let userMessage;
 
